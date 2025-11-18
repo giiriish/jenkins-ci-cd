@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main', 
-                    url: 'https://github.com/Vedantatugade/jenkins-cicd.git',
+                    url: 'https://github.com/giiriish/jenkins-ci-cd.git',
                     credentialsId: 'github-pat'
             }
         }
